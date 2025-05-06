@@ -4,26 +4,118 @@
     font-family: Roboto, sans-serif;
     color: white;
 }
-.body {
+.header {
+    background-color: #1F2937;
+}
+.header-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
+    width: 70%;
+    margin: 0 auto;
 }
-.header {
+.top-info {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
-    min-height: 25vh;
 }
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    padding: 10px 0px;
 }
 .links {
     font-size: 18px;
     color: #E5E7EB;
+    padding: 10px 0px;
+    display: flex;
+    gap: 30px;
 }
+.first-block {
+    background-color: white;
+    min-height: 25vh;
+}
+.second-block {
+    display: flex;
+    background-color: #E5E7EB;
+    min-height: 25vh;
+}
+.third-block {
+    display: flex;
+    background-color: white;
+    min-height: 20vh;
+}
+/*Header block styling */
+.text-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: stretch;
+    gap: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.text, .img {
+    width: 50%;
+    box-sizing: border-box;
+}
+.text-img h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.text-img p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.text-img button {
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}           
+/*Header block styling */
+.first-block {
+    width: 60%;
+    margin: 0 auto;
+}
+.block-style {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.first-block h2 {
+    color: black;
+    text-align: center;
+    padding: 20px 0px;
+    
+}
+.first-block p {
+    color: black;
+}
+.boxes-text {
+    display: flex;
+}
+.box {
+    border: 3px solid blue;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
 .footer {
     display: flex;
     justify-content: center;
@@ -31,3 +123,5 @@
     background-color: #1F2937;
     min-height: 5vh;
 }
+
+
