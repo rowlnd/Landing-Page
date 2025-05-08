@@ -99,13 +99,15 @@
     justify-content: center;
     gap: 100px;
     margin: 50px 0px;
+    margin-top: 0px;
+    
 }
 .first-block h2 {
     color: #1F2937;
     font-weight: 900;
     font-size: 36px;
     text-align: center;
-    margin: 20px;
+    margin: 40px;
     
 }
 .first-block p {
@@ -160,6 +162,27 @@
     color: #1F2937;
     font-weight: 700;
     text-align: right;
+}
+.third-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #3882F6;
+    width: 800px;
+    height: 100px;
+    border-radius: 20px;
+}
+.bbButton button {
+    width: 100px;
+    height: 30px;
+    border-color: 3px solid white;
+    background-color: blue;
+    border-radius: 5px;
 }
 
 
